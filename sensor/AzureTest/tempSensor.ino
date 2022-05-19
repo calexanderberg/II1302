@@ -18,7 +18,7 @@ Sensor.Begin();
   Serial.print(r[1]);
   Serial.print("%");
   Serial.print(" | ");
-
+/*
   Serial.print(Sensor.GetAbsHumidity()); //Torr by default
   Serial.print(" Torr");
   Serial.print(" | ");
@@ -35,7 +35,7 @@ Sensor.Begin();
   Serial.print(" Tolerance: ±");
   Serial.print(Sensor.GetAbsHumTolerance(SHT3x::mH2O));
   Serial.print(" mH2O");
-  
+  */
 
   Serial.println();
 
