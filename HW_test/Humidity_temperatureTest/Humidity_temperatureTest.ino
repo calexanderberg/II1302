@@ -26,7 +26,7 @@ void loop() {
   Serial.print("%");
   Serial.print(" | ");
   
-
+  
   Serial.println();
   delay(333);
 }
